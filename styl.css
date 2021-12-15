@@ -1,6 +1,13 @@
 body{
-  text-align:center;
+  text-align: center;
+  margin-top: -30px;
+  background-color:#c54eed ;
 
+}
+.do{
+  margin-top:-3vw;
+  z-index: 0;
+  position: relative;
 }
 img{
 
@@ -13,14 +20,15 @@ img{
 
 .bt{
   cursor:pointer;
+  color:#c9c9c9;
   padding-top: 10px;
-  top:50%;
+  top:46%;
   font-size: 30px;
   width:40px;
   height:40px;
   text-align: center;
-  opacity: 0.7;
-  background-color:#d9d9d9;
+  opacity: 0.6;
+  background-color:white;
 
 }
 .next{
@@ -39,24 +47,27 @@ img{
   position:absolute;
   left:420px;
 
-
 }
 
 span{
-  background-color:#999999;
-  border:1px solid #999999;
-  border-radius: 50%;
-  padding-left: 15px;
-  margin-left: 10px;
+  background-color:white;
+  border:1px solid white;
+  border-radius:100%;
+  padding-left:5px;
+  padding-right:5px;
+  margin-left: 8px;
 
 }
 span:hover{
-  background-color:#0d0f0e;
+  background-color: #c54eed;
   cursor: pointer;
   transition:0.3s;
+  border:1px solid #c54eed;
 }
 .active{
-  background-color:#0d0f0e;
+  background-color:#c54eed;
+  border:1px solid #c54eed;
+
 }
 @media screen and (max-width:720px){
   img{
